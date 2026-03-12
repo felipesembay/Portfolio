@@ -1,0 +1,33 @@
+# Projetos que não devem ser versionados
+Regression_PriceHouse/
+time_series/
+Analysis_marketing/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MLFlow
+mlruns/
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log
